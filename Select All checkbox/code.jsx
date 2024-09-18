@@ -20,7 +20,11 @@ const handleSelectAllCheckBox = () => {
   setCheckboxes((prev) => prev.map((checkbox) => ({...checkbox, checked:!allCheckBox})))
 }
   
-
+// or
+// can pass this for select all
+//   const handleSelectAll = () => {
+//   setCheckboxes(checkboxes.map((checkbox) => ({ ...checkbox, checked: true })));
+// };
 
 return (
   <Container>
